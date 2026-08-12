@@ -60,7 +60,7 @@ Can a normal user safely modify files here?
 
 ## Users Folder
 
-Purpose:
+Purpose: This shows the profiles of the users of the computer and the files they have access to. There is a default Public account which can be accessed by anyone but it has limited files as compared to other users. 
 
 What I learned:
 
