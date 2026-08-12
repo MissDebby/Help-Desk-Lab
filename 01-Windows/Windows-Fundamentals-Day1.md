@@ -40,7 +40,7 @@ No. If they are deleted then windows may stop working.
 
 ## Program Files
 
-Purpose:
+Purpose:This is showing all the installed applications on the computer. It keeps the apps and its related features in folder form
 
 What I learned:
 
@@ -50,7 +50,7 @@ Can a normal user safely modify files here?
 
 ## Program Files (x86)
 
-Purpose: This is showing all the installed applications on the computer. It keeps the apps and its related features in folder form. 
+Purpose: This seperated the older versions of softwares that are installed on the computer. Normally, these programs are the 32 bit versions. These prevent conflict between software from overwriting each other. 
 
 What I learned:
 
