@@ -72,11 +72,11 @@ Can a normal user safely modify files here?
 
 ## Task Manager
 
-Purpose:
+Purpose: It shows each resource that is active an how much resources it is using to run that process. 
 
-Where I found it:
+Where I found it: I searched from the Start menu.
 
-What I observed:
+What I observed: I observed that this tool shows the performance, app history, startup processes and the users. It shows which resources are being used and how much for each process. It can be used to end a process if it there's an issue or disable a startup process. 
 
 ---
 
