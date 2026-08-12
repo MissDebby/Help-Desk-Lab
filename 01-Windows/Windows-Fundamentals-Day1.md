@@ -50,7 +50,7 @@ Can a normal user safely modify files here?
 
 ## Program Files (x86)
 
-Purpose:
+Purpose: This is showing all the installed applications on the computer. It keeps the apps and its related features in folder form. 
 
 What I learned:
 
