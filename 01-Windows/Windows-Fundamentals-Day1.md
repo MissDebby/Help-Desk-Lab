@@ -30,12 +30,12 @@ Can a normal user safely modify files here?
 
 ## Windows Folder
 
-Purpose:
+Purpose: This is where all the Windows files are kept and it is very crucial for runnng windows
 
-What I learned:
+What I learned: These files are to be handled with great importance. 
 
 Can a normal user safely modify files here?
-
+No. If they are deleted then windows may stop working. 
 ---
 
 ## Program Files
