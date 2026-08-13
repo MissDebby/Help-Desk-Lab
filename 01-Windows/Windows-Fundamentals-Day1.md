@@ -54,7 +54,7 @@ Purpose: This seperated the older versions of softwares that are installed on th
 
 What I learned:
 
-Can a normal user safely modify files here?
+Can a normal user safely modify files here? 
 
 ---
 
@@ -82,56 +82,57 @@ What I observed: I observed that this tool shows the performance, app history, s
 
 ## Device Manager
 
-Purpose:
+Purpose: This shows the devices and the drives that are connected to the computer system. 
 
-Where I found it:
+Where I found it: I searched at the Start menu
 
-What I observed:
+What I observed: It categorises devices eg Camera and under it there will be all the available camera options. When you click on a particular drive you can have options like updating, disabling or uninsatalling the device which will help for troubleshooting device related programs. 
 
 ---
 
 ## Disk Management
 
-Purpose:
+Purpose: It shows you the number of disks you have on the computer. It also shows the partitions of each disk. It also displays file system eg NTFS, status, capacity and the available space. 
 
-Where I found it:
+Where I found it:I simply searched on the Start menu. 
 
-What I observed:
+What I observed:I observed that when you click on aparticular disk, it will show you options to delete or view properties of a particular disk partition. You can also open and view it's content. On
 
 ---
 
 ## Event Viewer
 
-Purpose:
+Purpose: Basically it displays all the activities that have happened on the computer. 
 
-Where I found it:
+Where I found it:I searched it on the Start Menu
 
-What I observed:
+What I observed: I observed that when I expanded the Windows Logs I had logs that were categorised into 4 majr groups namely; Application, Security, Setup, System and Forwarded Events. It also shows some administrative events which show warnings or errors that have occured. An example was, When I clicked on Application, it gave me alist of all the logs including the level, date and time, source and event Id. When a particular log was clicked, event detailed were displayed. They showed what the vent was in both friendly views and XML views. <img width="1902" height="1006" alt="image" src="https://github.com/user-attachments/assets/d3931310-6d50-4eaa-a850-c838ad9aabf5" />
+
 
 ---
 
 ## Computer Management
 
-Purpose:
+Purpose: This basically shows you the system tools, storage and sevices and applications that are available on your computer. 
 
-Where I found it:
+Where I found it:I searched it on the Start Menu
 
-What I observed:
+What I observed: I saw that whe I click on system tools other tools like event viewer and event manager can be found here without event seacrhing them on the Start menu. I also noted that shared folders can be seen here. I also noted that there is a task scheduler which can be utilized when you want to automate a task. 
 
 ---
 
 ## Services
 
-Purpose:
+Purpose: They are programs that run in the background and ensure that core system tasks are handled correctly like security and network.
 
-Where I found it:
+Where I found it: I seerached from the Start Menu
 
-What I observed:
+What I observed: The list of services is provided and a description of each service is give. A service can be started, restarted, stopped or paused.
 
 ---
 
 # Reflection
 
-Today I learned:
+I learned: For me to be able to troubleshoot and work effectienly with my Windows operating system, I need to farmilialise myself with the Windows operations, tools and services. 
 
 Questions I still have:
