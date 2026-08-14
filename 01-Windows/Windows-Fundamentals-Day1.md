@@ -78,6 +78,14 @@ Where I found it: I searched from the Start menu.
 
 What I observed: I observed that this tool shows the performance, app history, startup processes and the users. It shows which resources are being used and how much for each process. It can be used to end a process if it there's an issue or disable a startup process. 
 
+My laptop has:
+CPU :13th Gen Intel(R) Core(TM) i5-1334U
+Memory: 16.0 GV DDR4
+Disk: Disk 0 (C:) NVMe P0221 NVMe Phison 512GB
+Ethernet:	VirtualBox Host-Only Ethernet Adapter
+Wi-Fi: Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter
+GPU: Intel(R) Iris(R) Xe Graphics
+
 ---
 
 ## Device Manager
