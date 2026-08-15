@@ -86,6 +86,8 @@ Ethernet:	VirtualBox Host-Only Ethernet Adapter
 Wi-Fi: Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter
 GPU: Intel(R) Iris(R) Xe Graphics
 
+Under Startup programs I noticed that a lot of apps were enab,ed on my compputer which can potentially increase my start up time and consume resources in the background so I disabled them. For instance: Opera browser was starting up everytime I start my computer which was uncessary for me because I do not use it as my browser. It was also anoting for me in a way seeing the opera window pop on my screen everytime I switch my computer on when I almost never use the application. 
+
 ---
 
 ## Device Manager
@@ -94,8 +96,13 @@ Purpose: This shows the devices and the drives that are connected to the compute
 
 Where I found it: I searched at the Start menu
 
-What I observed: It categorises devices eg Camera and under it there will be all the available camera options. When you click on a particular drive you can have options like updating, disabling or uninsatalling the device which will help for troubleshooting device related programs. 
+What I observed: It categorises devices eg Camera and under it there will be all the available camera options. When you click on a particular drive you can have options like updating, disabling or uninstalling the device which will help for troubleshooting device related programs. 
+ I also observed that if you click on a particular let's say camera it will give you all information in regards to it, all details. For instance in the picture belo, I selected a camera and under details I can view the status if the camer, when It was installed, its last update and many more details. 
+ <img width="978" height="716" alt="image" src="https://github.com/user-attachments/assets/93ad6a66-3c57-4221-beb6-92d7c8b1c4b3" />
 
+I also observed that if you go to events option, it will show you the events and if you click on view more it will redirect you to event manager where it will be added on custom views. 
+
+ 
 ---
 
 ## Disk Management
@@ -104,7 +111,7 @@ Purpose: It shows you the number of disks you have on the computer. It also show
 
 Where I found it:I simply searched on the Start menu. 
 
-What I observed:I observed that when you click on aparticular disk, it will show you options to delete or view properties of a particular disk partition. You can also open and view it's content. On
+What I observed:I observed that when you click on a particular disk, it will show you options to delete or view properties of a particular disk partition. You can also open and view it's content. On my computer I have 5 disk partitions including OS(C:) which uses the NTFS and has the largest capacity at 454.98 GB which is high compared to the other partitions because it is the main storage space for my computer holding system files, user data, applications etc. 
 
 ---
 
@@ -136,6 +143,58 @@ Purpose: They are programs that run in the background and ensure that core syste
 Where I found it: I seerached from the Start Menu
 
 What I observed: The list of services is provided and a description of each service is give. A service can be started, restarted, stopped or paused.
+
+---
+---
+
+## Drivers
+
+Purpose: They are there to connect Windows to communicate with the hardware. 
+
+What I observed: The drivers are for specific components. Foe example network driver will focus on the connection to network, so here you will see Wi-Fi drivers and Ethernet drivers. This are essential when there is a problem. They give you status and details of the drives whil=cj helps in troubleshooting. They need to be updated accordingly to have the best. xe3
+
+---
+
+
+## Nwtworking Tools
+
+Command Prompt
+Purpose: It is a text uxser interface for navigating and manipulating the computer files, checking and fixing network issues and automating processes etc.
+What I observed: When I run "Ipconfig" I am able to view essential nrtworking data like : Address. . . . . . . . . . . : 10.0.0.144
+Subnet Mask . . . . . . . . . . . : 255.255.255.0
+Default Gateway . . . . . . . . . : 10.0.0.138
+I also tried doing "ping" and this is what happened:
+
+C:\Users\lkusi>ping 127.0.0.1
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+    
+I also tried "nslooup google.com" and this is what happened:
+C:\Users\lkusi>nslookup google.com
+Server:  mygateway
+Address:  10.0.0.138
+
+Non-authoritative answer:
+Name:    google.com
+Addresses:  2404:6800:4013:407::71
+          2404:6800:4013:407::8b
+          2404:6800:4013:407::64
+          2404:6800:4013:407::65
+          192.178.188.101
+          192.178.188.138
+          192.178.188.100
+          192.178.188.113
+          192.178.188.139
+          192.178.188.102
 
 ---
 
